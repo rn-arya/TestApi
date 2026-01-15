@@ -29,5 +29,5 @@ Dockerfile
 docker-compose.yml
 
 # How to run in docker
-1. docker-compose up -d (used to run the image)
+1. docker-compose up -d   OR (docker compose -f docker-compose.yml up -d)
 2. http://localhost:5215/api/WeatherForecast (used to open the api in browser which is running in docker)   
